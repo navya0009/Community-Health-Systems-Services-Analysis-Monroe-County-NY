@@ -1,84 +1,82 @@
-# 🏥 Community Health Systems & Services Analysis – Monroe County, NY  
+# Community Health Systems & Services Analysis – Monroe County, NY
+*A Data Analytics & Business Intelligence Project (University of Scranton, MBA in Business Analytics)*
 
-### 📊 Data Analytics • Business Intelligence • Public Health  
+---
 
-A comprehensive data analytics project evaluating **Monroe County, NY**’s community health ecosystem — demographics, health access, environmental factors, and service equity.  
-Built as part of the **MBA – Business Analytics** program at the *University of Scranton (Aug – Dec 2024).*
+## 📘 Project Overview
+This project provides a **data-driven evaluation of community health systems** in Monroe County, New York.  
+The analysis focuses on understanding health disparities, environmental influences, and healthcare infrastructure to support equitable public health policies.
+
+**Duration:** August 2024 – December 2024  
+**Role:** Co-Researcher & Data Analyst  
 
 ---
 
 ## 🎯 Objectives
-- Analyze health disparities, chronic disease prevalence, and social determinants.
-- Evaluate service accessibility using the “5 A’s” framework.
-- Assess healthcare financing, insurance coverage, and workforce availability.
-- Provide actionable, data-driven recommendations to improve community well-being.
+- Assess key health outcomes and disease prevalence (chronic, respiratory, mental health).  
+- Analyze socioeconomic and environmental determinants of health.  
+- Evaluate healthcare access, insurance coverage, and financing structure.  
+- Provide data-backed recommendations for improving care delivery and resource allocation.
 
 ---
 
-## 🧰 Tools & Technologies
+## 🧩 Data Sources
+- **U.S. Census Bureau** – Demographics & Income Data  
+- **CDC Data Portal** – Disease & Risk Factor Statistics  
+- **EPA Air Quality Index** – Environmental Pollution Data  
+- **Monroe County Open Data Portal** – Health Facilities, Expenditure & Workforce  
+- **Hospital Data** – Rochester Regional Health, URMC, Highland Hospital
+
+---
+
+## ⚙️ Tools & Technologies
 | Category | Tools |
 |-----------|-------|
-| Data Cleaning | Python (pandas, NumPy), SQL (PostgreSQL) |
-| Visualization | Tableau • Power BI • Matplotlib • Seaborn |
-| Data Sources | CDC Data Portal • EPA Air Quality Index • Monroe County Open Data Portal • U.S. Census |
-| Automation | Excel PowerQuery • Jupyter Notebook |
+| Data Cleaning & Analysis | Python (pandas, NumPy), Excel |
+| Data Visualization | Power BI, Tableau, Matplotlib |
+| Database Management | PostgreSQL, SQLite |
+| Reporting | Jupyter Notebooks, MS PowerPoint, PDF exports |
 
 ---
 
-## 🔍 Data Workflow
-1. **Collect & Combine** public datasets (demographics, environment, healthcare finance).  
-2. **Clean & Normalize** data using pandas + SQL.  
-3. **EDA & Visualization** to uncover trends.  
-4. **Dashboarding** in Tableau and Power BI.  
-5. **Reporting** and policy recommendations.
+## 🧠 Methodology
+1. **Data Extraction & Integration:** Compiled public health datasets from multiple open data sources.  
+2. **Cleaning & Transformation:** Standardized and merged using Python and SQL.  
+3. **Exploratory Data Analysis (EDA):** Studied population trends, disease rates, and health service accessibility.  
+4. **Visualization:** Built dashboards and visual reports to represent health disparities.  
+5. **Insights & Recommendations:** Summarized actionable outcomes to guide policy and planning.
 
 ---
 
-## 📈 Key Findings
+## 📊 Key Charts and Graphs
+The following visualizations were generated during analysis (to be uploaded in `/visuals` folder):
 
-| Theme | Insight |
-|-------|----------|
-| **Health Equity** | 95 % insured population but foreign-born and low-income groups still underserved. |
-| **Chronic Disease** | Diabetes rate ≈ 9.5 %; strong link to poverty and education levels. |
-| **Mental Health** | 16 % of adults report frequent distress — shortage of licensed clinicians. |
-| **Environment** | Air quality improved to “A” grade post-2023 Clean Air initiatives. |
-| **Infrastructure** | $650 M Strong Memorial Hospital expansion to meet capacity needs. |
+| Visualization | Description |
+|----------------|-------------|
+| **Health Risk Factors Dashboard** | Displays obesity, smoking, and inactivity trends. |
+| **Air Quality Trend Graphs** | Year-over-year ozone and particle pollution changes. |
+| **Insurance Coverage by Demographics** | Visualizes coverage gaps by income and ethnicity. |
+| **Healthcare Expenditure Pie Chart** | Shows budget allocation across key sectors. |
+| **Hospital Infrastructure Bar Chart** | Compares hospital capacity and bed counts. |
 
 ---
 
-## 📊 Visual Highlights
-
-| Graph | Description |
-|-------|--------------|
-| ![Air Quality Trend](visuals/air_quality_trends.png) | Year-over-year decline in ozone pollution levels. |
-| ![Chronic Diseases](visuals/chronic_disease_rates.png) | Comparative analysis of cardio, respiratory, and metabolic conditions. |
-| ![Insurance Coverage](visuals/insurance_coverage_map.png) | Geographic distribution of insured vs underinsured residents. |
-| ![Poverty Impact](visuals/poverty_vs_health_outcomes.png) | Correlation between income level and life expectancy. |
-| ![Budget Allocation](visuals/healthcare_expenditure_breakdown.png) | Breakdown of $508.9 M health and welfare spending. |
+## 📈 Key Insights
+- **Chronic Disease Burden:** Diabetes prevalence at 9.5%, with higher rates in lower-income neighborhoods.  
+- **High Insurance Coverage:** 95% of residents insured, though coverage disparities persist among foreign-born populations.  
+- **Environmental Improvement:** Ozone pollution dropped to record lows in 2023–24 due to policy changes.  
+- **Mental Health Concern:** 16% of adults report frequent mental distress; shortage of professionals noted.  
+- **Funding Gap:** Health & Welfare accounts for 35% of county spending, yet long-term care capacity remains low.
 
 ---
 
 ## 💡 Recommendations
-- Expand **preventive care** & community health education.  
-- Leverage **AI-driven EHR analytics** (Epic, Hyperion).  
-- Strengthen **public-private collaborations** to close service gaps.  
-- Increase funding for **mental health and long-term care**.  
+- Increase funding for **long-term care** and **mental health infrastructure**.  
+- Expand **preventive care programs** to reduce emergency dependency.  
+- Improve **telehealth and outreach initiatives** for vulnerable populations.  
+- Foster **data integration systems** (Epic, Hyperion) for real-time tracking.  
+- Support **public-private partnerships** to close coverage and service gaps.
 
 ---
 
-## 🧠 Future Enhancements
-- Automate ETL with Airflow / DBT.  
-- Integrate real-time public health APIs.  
-- Deploy interactive dashboard on **Streamlit or Tableau Public**.  
-
----
-
-## 👩‍💻 Author
-**Navya Nischala Bandi**  
-MBA – Business Analytics, University of Scranton (2024)  
-📍 Scranton, PA | 💼 [LinkedIn](https://linkedin.com/in/navya-nischala-bandi) | 📧 navyanischalabandi@gmail.com
-
----
-
-## 📜 License
-This project is licensed under the **MIT License** – feel free to fork and build on it for educational or research purposes.
+## 🗂️ Repository Structure
