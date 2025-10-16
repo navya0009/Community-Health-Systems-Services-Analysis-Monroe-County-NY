@@ -62,11 +62,7 @@ The following visualizations were generated during analysis (to be uploaded in `
 ---
 
 ## 📈 Key Insights
-- **Chronic Disease Burden:** Diabetes prevalence at 9.5%, with higher rates in lower-income neighborhoods.  
-- **High Insurance Coverage:** 95% of residents insured, though coverage disparities persist among foreign-born populations.  
-- **Environmental Improvement:** Ozone pollution dropped to record lows in 2023–24 due to policy changes.  
-- **Mental Health Concern:** 16% of adults report frequent mental distress; shortage of professionals noted.  
-- **Funding Gap:** Health & Welfare accounts for 35% of county spending, yet long-term care capacity remains low.
+
 
 ---
 
